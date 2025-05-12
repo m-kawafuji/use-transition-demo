@@ -43,7 +43,7 @@ export default function Counter() {
       <div className="mt-4 text-3xl font-bold">
         Double: {isPending ? "pending..." : double}
       </div>
-      <div className="flex gap-4 mt-8">
+      <div className="mt-8 flex gap-4">
         <Button
           className="min-w-36"
           type="button"
